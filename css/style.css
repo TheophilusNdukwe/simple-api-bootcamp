@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: green;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
+    margin-top: 10em;
+}
+
+/* STYLE IDEA */
+/* use a Grid format where the coin ticker is the most
+ important grid taking up the most space and the rest of the 
+ information is in smaller grid below 
+ 
+ each header element should be in separate divs*/
